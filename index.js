@@ -1,7 +1,7 @@
 const express = require('express')
 const os = require('os');
 const app = express()
-const port = 4200
+const port = process.env.PORT
 
 
 app.use((req, res, next) => {
